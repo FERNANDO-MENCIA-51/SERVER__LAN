@@ -1,0 +1,22 @@
+	
+	ip elastica  3.229.61.183
+
+
+		comandos
+	1  sudo apt update
+    2  sudo hostnamectl set-hostname servermencia
+    3  sudo apt update -y
+    4  sudo reboot
+    5  sudo apt install apache2
+    6  sudo apt install mysql-server
+    7  sudo apt install php libapache2-mod-php php-mysql
+    8  sudo apt install phpmyadmin
+    9  sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
+   10  sudo a2enconf phpmyadmin
+   11  sudo systemctl restart apache2
+   12  mysql -u root -p
+   13  root
+   14  sudo su
+   15  sudo mysql_secure_installation
+   16  sudo mysql -u root
+   17  sudo mysql -u root -p
